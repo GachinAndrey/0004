@@ -83,6 +83,7 @@ def search_prime(n):
 
 cProfile.run('eratosthenes_sieve(30000)')
 cProfile.run('search_prime(30000)')
+
 """
 cProfile.run('eratosthenes_sieve(1000)')
 cProfile.run('search_prime(1000)')
